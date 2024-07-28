@@ -13,7 +13,7 @@ const getSum = () => {
   if (total == sum) return;
   sum = total;
   let tr = document.createElement("tr");
-  tr.innerHTML = "<td colspan=2>" + total + "</td>";
+  tr.innerHTML = `<td id= colspan=2> total</td>`;
   let table = document.querySelector("table");
   table.appendChild(tr);
 };
